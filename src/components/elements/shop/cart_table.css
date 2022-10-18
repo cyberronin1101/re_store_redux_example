@@ -1,0 +1,46 @@
+.cartTable {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin-bottom: 12px;
+}
+
+.cartTable thead tr {
+    border-top:  1px solid #ccc;
+}
+.cartTable tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.cartTable td, .cartTable th {
+    padding: 8px 4px;
+}
+
+.cartTable__container {
+    margin-bottom: 16px;
+}
+
+.cartTable__price {
+    white-space: nowrap;
+}
+
+.cartTable__title {
+    width: 50%;
+}
+.cartTable__action {
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+}
+.cartTable__action button{
+    margin-right: 4px;
+}
+.cartTable__action button:last-child {
+    margin-right: 0;
+}
+
+.cartTable__total {
+    text-align: right;
+    font-size: 1.3rem;
+    margin-right: 8px;
+}

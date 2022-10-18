@@ -1,0 +1,22 @@
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__cart {
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.header__cartIcon {
+    font-size: 1.6rem;
+    margin-right: 10px;
+    color: yellowgreen;
+}
